@@ -16,11 +16,11 @@ Built a decision tree classifier to predict whether a crime will be solved using
 - Crime solving patterns changed significantly around 1998-2000
 - Models trained on historical data need retraining every 5-10 years
 
-# Train final model
+## Train final model
 weka.classifiers.trees.J48 -C 0.01 -M 10000 -t crime_train.arff -x 10
 
-# Test on validation set
+## Test on validation set
 weka.classifiers.trees.J48 -C 0.01 -M 10000 -t crime_train.arff -T crime_val.arff
 
-# Test on test set
+## Test on test set
 weka.classifiers.trees.J48 -C 0.01 -M 10000 -t crime_train.arff -T crime_test.arff
