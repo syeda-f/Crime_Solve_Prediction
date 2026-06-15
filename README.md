@@ -13,7 +13,7 @@ Built a decision tree classifier to predict whether a crime will be solved using
 ## What I Learned
 - Data leakage from perpetrator attributes caused 99.97% fake accuracy
 - Aggressive pruning (C=0.01, M=10000) produces simpler, more generalizable trees
-- Crime solving patterns changed significantly around 1998-2000
+- Crime-solving patterns changed significantly around 1998-2000
 - Models trained on historical data need retraining every 5-10 years
 
 ## Train final model
